@@ -1,6 +1,6 @@
-FROM golang:1.5beta2
+FROM golang:1.5
 
-ENV HEKAD_VERSION v0.10.0b0
+ENV HEKAD_VERSION v0.10.0b1
 
 RUN apt-get update && \
     apt-get -y upgrade && \
