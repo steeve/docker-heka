@@ -1,4 +1,4 @@
-FROM golang:1.5
+FROM golang:1.5.1
 
 ENV HEKAD_VERSION v0.10.0b1
 
